@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F168DC06298181DA005B677A /* Assignment_NotebookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168DC05298181DA005B677A /* Assignment_NotebookApp.swift */; };
+		F168DC08298181DA005B677A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168DC07298181DA005B677A /* ContentView.swift */; };
+		F168DC0A298181DC005B677A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F168DC09298181DC005B677A /* Assets.xcassets */; };
+		F168DC0D298181DC005B677A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F168DC0C298181DC005B677A /* Preview Assets.xcassets */; };
+		F168DC17298181DC005B677A /* Assignment_NotebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168DC16298181DC005B677A /* Assignment_NotebookTests.swift */; };
+		F168DC21298181DC005B677A /* Assignment_NotebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168DC20298181DC005B677A /* Assignment_NotebookUITests.swift */; };
+		F168DC23298181DC005B677A /* Assignment_NotebookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F168DC22298181DC005B677A /* Assignment_NotebookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F168DC13298181DC005B677A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F168DBFA298181DA005B677A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F168DC01298181DA005B677A;
+			remoteInfo = "Assignment Notebook";
+		};
+		F168DC1D298181DC005B677A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F168DBFA298181DA005B677A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F168DC01298181DA005B677A;
+			remoteInfo = "Assignment Notebook";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F168DC02298181DA005B677A /* Assignment Notebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment Notebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F168DC05298181DA005B677A /* Assignment_NotebookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookApp.swift; sourceTree = "<group>"; };
+		F168DC07298181DA005B677A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F168DC09298181DC005B677A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F168DC0C298181DC005B677A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F168DC12298181DC005B677A /* Assignment NotebookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F168DC16298181DC005B677A /* Assignment_NotebookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookTests.swift; sourceTree = "<group>"; };
+		F168DC1C298181DC005B677A /* Assignment NotebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment NotebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F168DC20298181DC005B677A /* Assignment_NotebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITests.swift; sourceTree = "<group>"; };
+		F168DC22298181DC005B677A /* Assignment_NotebookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_NotebookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F168DBFF298181DA005B677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC0F298181DC005B677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC19298181DC005B677A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F168DBF9298181DA005B677A = {
+			isa = PBXGroup;
+			children = (
+				F168DC04298181DA005B677A /* Assignment Notebook */,
+				F168DC15298181DC005B677A /* Assignment NotebookTests */,
+				F168DC1F298181DC005B677A /* Assignment NotebookUITests */,
+				F168DC03298181DA005B677A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F168DC03298181DA005B677A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F168DC02298181DA005B677A /* Assignment Notebook.app */,
+				F168DC12298181DC005B677A /* Assignment NotebookTests.xctest */,
+				F168DC1C298181DC005B677A /* Assignment NotebookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F168DC04298181DA005B677A /* Assignment Notebook */ = {
+			isa = PBXGroup;
+			children = (
+				F168DC05298181DA005B677A /* Assignment_NotebookApp.swift */,
+				F168DC07298181DA005B677A /* ContentView.swift */,
+				F168DC09298181DC005B677A /* Assets.xcassets */,
+				F168DC0B298181DC005B677A /* Preview Content */,
+			);
+			path = "Assignment Notebook";
+			sourceTree = "<group>";
+		};
+		F168DC0B298181DC005B677A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F168DC0C298181DC005B677A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F168DC15298181DC005B677A /* Assignment NotebookTests */ = {
+			isa = PBXGroup;
+			children = (
+				F168DC16298181DC005B677A /* Assignment_NotebookTests.swift */,
+			);
+			path = "Assignment NotebookTests";
+			sourceTree = "<group>";
+		};
+		F168DC1F298181DC005B677A /* Assignment NotebookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F168DC20298181DC005B677A /* Assignment_NotebookUITests.swift */,
+				F168DC22298181DC005B677A /* Assignment_NotebookUITestsLaunchTests.swift */,
+			);
+			path = "Assignment NotebookUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F168DC01298181DA005B677A /* Assignment Notebook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F168DC26298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment Notebook" */;
+			buildPhases = (
+				F168DBFE298181DA005B677A /* Sources */,
+				F168DBFF298181DA005B677A /* Frameworks */,
+				F168DC00298181DA005B677A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assignment Notebook";
+			productName = "Assignment Notebook";
+			productReference = F168DC02298181DA005B677A /* Assignment Notebook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F168DC11298181DC005B677A /* Assignment NotebookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F168DC29298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment NotebookTests" */;
+			buildPhases = (
+				F168DC0E298181DC005B677A /* Sources */,
+				F168DC0F298181DC005B677A /* Frameworks */,
+				F168DC10298181DC005B677A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F168DC14298181DC005B677A /* PBXTargetDependency */,
+			);
+			name = "Assignment NotebookTests";
+			productName = "Assignment NotebookTests";
+			productReference = F168DC12298181DC005B677A /* Assignment NotebookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F168DC1B298181DC005B677A /* Assignment NotebookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F168DC2C298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment NotebookUITests" */;
+			buildPhases = (
+				F168DC18298181DC005B677A /* Sources */,
+				F168DC19298181DC005B677A /* Frameworks */,
+				F168DC1A298181DC005B677A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F168DC1E298181DC005B677A /* PBXTargetDependency */,
+			);
+			name = "Assignment NotebookUITests";
+			productName = "Assignment NotebookUITests";
+			productReference = F168DC1C298181DC005B677A /* Assignment NotebookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F168DBFA298181DA005B677A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F168DC01298181DA005B677A = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					F168DC11298181DC005B677A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F168DC01298181DA005B677A;
+					};
+					F168DC1B298181DC005B677A = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = F168DC01298181DA005B677A;
+					};
+				};
+			};
+			buildConfigurationList = F168DBFD298181DA005B677A /* Build configuration list for PBXProject "Assignment Notebook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F168DBF9298181DA005B677A;
+			productRefGroup = F168DC03298181DA005B677A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F168DC01298181DA005B677A /* Assignment Notebook */,
+				F168DC11298181DC005B677A /* Assignment NotebookTests */,
+				F168DC1B298181DC005B677A /* Assignment NotebookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F168DC00298181DA005B677A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F168DC0D298181DC005B677A /* Preview Assets.xcassets in Resources */,
+				F168DC0A298181DC005B677A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC10298181DC005B677A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC1A298181DC005B677A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F168DBFE298181DA005B677A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F168DC08298181DA005B677A /* ContentView.swift in Sources */,
+				F168DC06298181DA005B677A /* Assignment_NotebookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC0E298181DC005B677A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F168DC17298181DC005B677A /* Assignment_NotebookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F168DC18298181DC005B677A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F168DC23298181DC005B677A /* Assignment_NotebookUITestsLaunchTests.swift in Sources */,
+				F168DC21298181DC005B677A /* Assignment_NotebookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F168DC14298181DC005B677A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F168DC01298181DA005B677A /* Assignment Notebook */;
+			targetProxy = F168DC13298181DC005B677A /* PBXContainerItemProxy */;
+		};
+		F168DC1E298181DC005B677A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F168DC01298181DA005B677A /* Assignment Notebook */;
+			targetProxy = F168DC1D298181DC005B677A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F168DC24298181DC005B677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F168DC25298181DC005B677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F168DC27298181DC005B677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook/Preview Content\"";
+				DEVELOPMENT_TEAM = W3GN63M436;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-Notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F168DC28298181DC005B677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment Notebook/Preview Content\"";
+				DEVELOPMENT_TEAM = W3GN63M436;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-Notebook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F168DC2A298181DC005B677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-NotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment Notebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment Notebook";
+			};
+			name = Debug;
+		};
+		F168DC2B298181DC005B677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-NotebookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment Notebook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Assignment Notebook";
+			};
+			name = Release;
+		};
+		F168DC2D298181DC005B677A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-NotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment Notebook";
+			};
+			name = Debug;
+		};
+		F168DC2E298181DC005B677A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = W3GN63M436;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MobileApps.Assignment-NotebookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment Notebook";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F168DBFD298181DA005B677A /* Build configuration list for PBXProject "Assignment Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F168DC24298181DC005B677A /* Debug */,
+				F168DC25298181DC005B677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F168DC26298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment Notebook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F168DC27298181DC005B677A /* Debug */,
+				F168DC28298181DC005B677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F168DC29298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment NotebookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F168DC2A298181DC005B677A /* Debug */,
+				F168DC2B298181DC005B677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F168DC2C298181DC005B677A /* Build configuration list for PBXNativeTarget "Assignment NotebookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F168DC2D298181DC005B677A /* Debug */,
+				F168DC2E298181DC005B677A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F168DBFA298181DA005B677A /* Project object */;
+}
